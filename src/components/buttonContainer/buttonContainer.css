@@ -1,0 +1,27 @@
+.btn-container{
+  width: 220px;
+  height: 37px;
+  display: flex;
+}
+.btn{
+  width: 50%;
+  height: 100%;
+border: none;
+background: none;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.btn:hover{
+  cursor: pointer;
+  color: #272a2e;
+}
+
+.btn-active{
+  color: #272a2e;
+  text-decoration: underline;
+}
+.btn:focus{
+  outline: none;
+}
